@@ -3,8 +3,8 @@ const axios = require("axios");
 const { response } = require("express");
 
 // modificar con los valores reales
-const api_cursos = "http://api-cursos_c:7999";
-const api_estudiantes = "http://api-estudiantes_c:7998";
+const api_cursos = "http://api-cursos_c:3000";
+const api_estudiantes = "http://api-estudiante_c:8080";
 const api_profesores = "api-profesores_c:7997";
 
 // get todos los cursos del alumno en el periodo actual
